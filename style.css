@@ -1,0 +1,84 @@
+body{
+    background: #ECEBE8;
+}
+h2{
+    color: #FF6600;
+    font-size: 95px;
+    font-family: monospace;
+    text-shadow: 0px 0px  4px rgba(0, 0, 0, 0.600);
+}
+.minutes-aj, .seconds-aj, .hours9-3, .pointers, .central-aj {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;  
+    display: flex;
+    justify-content: space-between;
+}
+#minutes,#hours, #seconds {
+    width: 20px;
+    height: 600px;
+    margin: auto;
+    border-radius: 0%;
+    
+}
+#seconds {
+    height: 430px;
+    background: linear-gradient( #FF6600 50%, transparent 50%);
+    width: 5px;
+    border-radius: 20px;
+}
+#minutes {
+    background: linear-gradient( #686868 50%, transparent 50%);
+    border-radius: 30%;
+    height: 500px;
+    
+}
+#hours {
+    background: linear-gradient( #686868 50%, transparent 50%);
+    border-radius: 30%;
+    height: 300px;
+}
+.clock{
+    background: radial-gradient(#c0c0c0, #5f5f5f); 
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    border: 8px solid #454847;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+.hours9-3-aj, .pointers-aj {
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.hours12-6{
+    height: 600px;
+    text-align: center;
+}
+.hours12-6 h2:first-child{
+    margin-bottom: 405px;
+    margin-top: -15px;
+}
+.hours9-3-aj h2:first-child{
+    margin-right: 480px;
+    margin-left: 10px;
+}
+
+.central {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    background: #FF6600;
+    z-index: 99999;
+    border-radius: 50%;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
